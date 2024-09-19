@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon api/index.js",
     "start": "node api/index.js",
-    "built": "npm install && npm install --prefix client && npm run build --prefix client"
+    "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
@@ -25,4 +25,3 @@
     "react-syntax-highlighter": "^15.5.0",
     "redux-persist": "^6.0.0"
   }
-}
